@@ -28,7 +28,7 @@ public class HelloWorldBolt extends BaseRichBolt {
 		String test = input.getStringByField("sentence");
 		if ( test.equals("Hello World") ) {
 			myCount ++;
-			System.out.println("Found a Hello World");
+			System.out.println("Found a Hello World!");
 			LOG.debug("Found a Hello World");
 		}
 	}
