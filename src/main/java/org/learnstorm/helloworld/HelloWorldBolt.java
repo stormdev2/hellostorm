@@ -31,6 +31,9 @@ public class HelloWorldBolt extends BaseRichBolt {
 			System.out.println("Found a Hello World!");
 			LOG.debug("Found a Hello World");
 		}
+		else {
+			System.out.println("Found a not Hello World!");
+		}
 	}
 
 	@Override
